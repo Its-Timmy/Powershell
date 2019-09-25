@@ -9,19 +9,20 @@ just another Testing FTW - CTRL + F2
 To Move Lines :: Alt + arrow keys To Move Lines ::
 
 	Shortcuts
-Ctrl + Shift + P        	Command Pallete - Use to change options and such
-Ctrl + `      (on tilde key)	Show/Hide terminal
-Ctrl + B	Toggle side-bar
-Ctrl + F2	Make multiple changes simultaneously
+Ctrl + Shift + P ::       	Command Pallete - Use to change options and such
+Ctrl + ` ::     (on tilde key)	Show/Hide terminal
+Ctrl + B::	Toggle side-bar
+Ctrl + F2::	Make multiple changes simultaneously
 	       Highlight text, use hotkey, and watch it go!!   -- press esc to exit
-Alt + Click	Use to create cursors @ multiple locations
-Alt + Arrow	Move selected line up and down (Shuffles the line)
-Ctrl + Alt + Arrow	Create cursors on multiple lines
-Ctrl + F	Find. 
-+ F3 >	Will search text for next find match
-F9	Add break point (useful for debugging)
-F5	Run Program
-F11	Step into code
-F10	Step into line
-	
+Alt + Click::	Use to create cursors @ multiple locations
+Alt + Arrow::	Move selected line up and down (Shuffles the line)
+Ctrl + Alt + Arrow::	Create cursors on multiple lines
+Ctrl + F::	Find. 
++ F3 >::	Will search text for next find match
+F9::	Add break point (useful for debugging)
+F5::	Run Program
+F11::	Step into code
+F10::	Step into line
+F8 :: Execute Selected code
+
 Debugging	You can add variables to "Watch" : This separates the variable for you, so you can see how its acting.
