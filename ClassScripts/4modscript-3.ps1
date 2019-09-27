@@ -12,12 +12,13 @@ Param(
     $win32CSOut = Get-CimInstance -ClassName Win32_ComputerSystem -ComputerName $computername
     $win32OSOut = Get-CimInstance -ClassName Win32_OperatingSystem -ComputerName $computername
 
+# Hash-table below
     $paramout =  @{'ComputerName' =$computername;
     'Memory'= $win32CSOut.TotalPhysicalMemory;
     'Free Memory' = $win32OSOut.FreePhysicalMemory;
     'Procs' = $win32CSOut.NumberOfProcessors;
     'Version' = $win32OSOut.version}
-
+# Setting the Hash-Table to a custom object, then displaying it
     $outobj =New-Object -TypeName psobject -Property $paramout
     Write-Output $outobj    
 }
