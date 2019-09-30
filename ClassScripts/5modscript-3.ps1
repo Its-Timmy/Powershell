@@ -9,6 +9,6 @@
 Param([parameter(mandatory=$true,position=2)]
         [alias("Friend")][String]$name,
     [parameter(mandatory=$true,position=1)]
-        [string]$greeting)
+        [alias("Pos1")][string]$greeting)
 
     write-output "$greeting $name"
